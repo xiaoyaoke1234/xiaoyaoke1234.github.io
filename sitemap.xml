@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://xiaoyaoke1234.github.io/2021/05/16/myfirst/</loc>
-    <lastmod>2021-05-16T08:48:11+08:00</lastmod>
+    <loc>https://xiaoyaoke1234.github.io/2021/05/16/hugo%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%84%9A%E6%9C%AC%E5%BF%AB%E9%80%9F%E5%8F%91%E5%B8%83%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2021-05-16T10:26:54+08:00</lastmod>
   </url><url>
     <loc>https://xiaoyaoke1234.github.io/post/</loc>
-    <lastmod>2021-05-16T08:48:11+08:00</lastmod>
+    <lastmod>2021-05-16T10:26:54+08:00</lastmod>
   </url><url>
     <loc>https://xiaoyaoke1234.github.io/</loc>
+    <lastmod>2021-05-16T10:26:54+08:00</lastmod>
+  </url><url>
+    <loc>https://xiaoyaoke1234.github.io/2021/05/16/myfirst/</loc>
     <lastmod>2021-05-16T08:48:11+08:00</lastmod>
   </url><url>
     <loc>https://xiaoyaoke1234.github.io/links/</loc>

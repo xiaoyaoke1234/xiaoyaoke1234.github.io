@@ -6,7 +6,30 @@
     <description>Recent content in Posts on xiaoyaoke</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 16 May 2021 08:48:11 +0800</lastBuildDate><atom:link href="https://xiaoyaoke1234.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 May 2021 10:26:54 +0800</lastBuildDate><atom:link href="https://xiaoyaoke1234.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo博客的脚本快速发布博客</title>
+      <link>https://xiaoyaoke1234.github.io/2021/05/16/hugo%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%84%9A%E6%9C%AC%E5%BF%AB%E9%80%9F%E5%8F%91%E5%B8%83%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Sun, 16 May 2021 10:26:54 +0800</pubDate>
+      
+      <guid>https://xiaoyaoke1234.github.io/2021/05/16/hugo%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%84%9A%E6%9C%AC%E5%BF%AB%E9%80%9F%E5%8F%91%E5%B8%83%E5%8D%9A%E5%AE%A2/</guid>
+      <description>hugo使用脚本发布文章 前言 由于Hexo博客的生成速度太慢了，所以我开始使用Hugo博客 https://xiaoyaoke1234.github.io/
+写博客 当使用Hugo博客后，写文章的姿势
+ hugo new post/202001-xxxxxx.md
+ 生成静态文件 使用hugo命名，就会在public生成博客页面
+ hugo
+ 发布博客 进入public文件
+ cd public
+ 常规git操作
+ git add .
+  git commit -m &amp;ldquo;blog&amp;rdquo;
+  git remote add origin https://github.com/Weirdchun/Weirdchun.github.io.git
+  git push -u origin master
+ 使用脚本发布博客 新建deploy.sh文件 每次发布都得进行上面四步，太麻烦了，使用脚本代替！
+在MyBlog根站点新建一个文件命名deploy.sh,写入git操作代码
+#!/bin/bashecho -e &amp;quot;\033[0;32mDeploying updates to GitHub...\033[0m&amp;quot;# Build the project.hugo # if using a theme, replace by `hugo -t &amp;lt;yourtheme&amp;gt;`# Go To Public foldercd public# Add changes to git.</description>
+    </item>
+    
     <item>
       <title>Myfirst</title>
       <link>https://xiaoyaoke1234.github.io/2021/05/16/myfirst/</link>
