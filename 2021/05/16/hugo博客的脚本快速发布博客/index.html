@@ -23,17 +23,10 @@
     <meta property="og:title" content="Hugo博客的脚本快速发布博客" />
 <meta property="og:description" content="hugo使用脚本发布文章 前言 由于Hexo博客的生成速度太慢了，所以我开始使用Hugo博客 https://xiaoyaoke1234.github.io/
 写博客 当使用Hugo博客后，写文章的姿势
- hugo new post/202001-xxxxxx.md
- 生成静态文件 使用hugo命名，就会在public生成博客页面
- hugo
- 发布博客 进入public文件
- cd public
- 常规git操作
- git add .
-  git commit -m &ldquo;blog&rdquo;
-  git remote add origin https://github.com/Weirdchun/Weirdchun.github.io.git
-  git push -u origin master
- 使用脚本发布博客 新建deploy.sh文件 每次发布都得进行上面四步，太麻烦了，使用脚本代替！
+hugo new post/202001-xxxxxx.md  生成静态文件 使用hugo命名，就会在public生成博客页面
+hugo  发布博客 进入public文件
+cd public  常规git操作
+git add .git commit -m &quot;blog&quot;git remote add origin https://github.com/Weirdchun/Weirdchun.github.io.gitgit push -u origin master  使用脚本发布博客 新建deploy.sh文件 每次发布都得进行上面四步，太麻烦了，使用脚本代替！
 在MyBlog根站点新建一个文件命名deploy.sh,写入git操作代码
 #!/bin/bashecho -e &quot;\033[0;32mDeploying updates to GitHub...\033[0m&quot;# Build the project.hugo # if using a theme, replace by `hugo -t &lt;yourtheme&gt;`# Go To Public foldercd public# Add changes to git." />
 <meta property="og:type" content="article" />
@@ -46,37 +39,23 @@
     <meta itemprop="name" content="Hugo博客的脚本快速发布博客">
 <meta itemprop="description" content="hugo使用脚本发布文章 前言 由于Hexo博客的生成速度太慢了，所以我开始使用Hugo博客 https://xiaoyaoke1234.github.io/
 写博客 当使用Hugo博客后，写文章的姿势
- hugo new post/202001-xxxxxx.md
- 生成静态文件 使用hugo命名，就会在public生成博客页面
- hugo
- 发布博客 进入public文件
- cd public
- 常规git操作
- git add .
-  git commit -m &ldquo;blog&rdquo;
-  git remote add origin https://github.com/Weirdchun/Weirdchun.github.io.git
-  git push -u origin master
- 使用脚本发布博客 新建deploy.sh文件 每次发布都得进行上面四步，太麻烦了，使用脚本代替！
+hugo new post/202001-xxxxxx.md  生成静态文件 使用hugo命名，就会在public生成博客页面
+hugo  发布博客 进入public文件
+cd public  常规git操作
+git add .git commit -m &quot;blog&quot;git remote add origin https://github.com/Weirdchun/Weirdchun.github.io.gitgit push -u origin master  使用脚本发布博客 新建deploy.sh文件 每次发布都得进行上面四步，太麻烦了，使用脚本代替！
 在MyBlog根站点新建一个文件命名deploy.sh,写入git操作代码
 #!/bin/bashecho -e &quot;\033[0;32mDeploying updates to GitHub...\033[0m&quot;# Build the project.hugo # if using a theme, replace by `hugo -t &lt;yourtheme&gt;`# Go To Public foldercd public# Add changes to git."><meta itemprop="datePublished" content="2021-05-16T10:26:54&#43;08:00" />
 <meta itemprop="dateModified" content="2021-05-16T10:26:54&#43;08:00" />
-<meta itemprop="wordCount" content="132">
+<meta itemprop="wordCount" content="276">
 <meta itemprop="keywords" content="" />
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Hugo博客的脚本快速发布博客"/>
 <meta name="twitter:description" content="hugo使用脚本发布文章 前言 由于Hexo博客的生成速度太慢了，所以我开始使用Hugo博客 https://xiaoyaoke1234.github.io/
 写博客 当使用Hugo博客后，写文章的姿势
- hugo new post/202001-xxxxxx.md
- 生成静态文件 使用hugo命名，就会在public生成博客页面
- hugo
- 发布博客 进入public文件
- cd public
- 常规git操作
- git add .
-  git commit -m &ldquo;blog&rdquo;
-  git remote add origin https://github.com/Weirdchun/Weirdchun.github.io.git
-  git push -u origin master
- 使用脚本发布博客 新建deploy.sh文件 每次发布都得进行上面四步，太麻烦了，使用脚本代替！
+hugo new post/202001-xxxxxx.md  生成静态文件 使用hugo命名，就会在public生成博客页面
+hugo  发布博客 进入public文件
+cd public  常规git操作
+git add .git commit -m &quot;blog&quot;git remote add origin https://github.com/Weirdchun/Weirdchun.github.io.gitgit push -u origin master  使用脚本发布博客 新建deploy.sh文件 每次发布都得进行上面四步，太麻烦了，使用脚本代替！
 在MyBlog根站点新建一个文件命名deploy.sh,写入git操作代码
 #!/bin/bashecho -e &quot;\033[0;32mDeploying updates to GitHub...\033[0m&quot;# Build the project.hugo # if using a theme, replace by `hugo -t &lt;yourtheme&gt;`# Go To Public foldercd public# Add changes to git."/>
 <meta name="twitter:site" content="@spf13"/>
@@ -300,10 +279,10 @@
             <i class="fa fa-calendar"></i>
             <time datetime="2021-05-16 10:26:54 &#43;0800 CST" itemprop="datePublished">2021-05-16</time>
             &middot;
-            132
+            276
             
             &middot;
-            1
+            2
             
         </div>
         
@@ -317,35 +296,25 @@
             <h1 id="hugo使用脚本发布文章"><strong>hugo使用脚本发布文章</strong></h1>
 <h2 id="前言"><strong>前言</strong></h2>
 <p>由于Hexo博客的生成速度太慢了，所以我开始使用Hugo博客
-<a href="https://xiaoyaoke1234.github.io/">https://xiaoyaoke1234.github.io/</a></p>
+<code>https://xiaoyaoke1234.github.io/</code></p>
 <h2 id="写博客"><strong>写博客</strong></h2>
 <p>当使用Hugo博客后，写文章的姿势</p>
-<blockquote>
-<p>hugo new post/202001-xxxxxx.md</p>
-</blockquote>
+<pre><code>hugo new post/202001-xxxxxx.md
+</code></pre>
 <h2 id="生成静态文件"><strong>生成静态文件</strong></h2>
 <p>使用hugo命名，就会在public生成博客页面</p>
-<blockquote>
-<p>hugo</p>
-</blockquote>
+<pre><code>hugo
+</code></pre>
 <h2 id="发布博客"><strong>发布博客</strong></h2>
 <p>进入public文件</p>
-<blockquote>
-<p>cd public</p>
-</blockquote>
+<pre><code>cd public
+</code></pre>
 <p>常规git操作</p>
-<blockquote>
-<p>git add .</p>
-</blockquote>
-<blockquote>
-<p>git commit -m &ldquo;blog&rdquo;</p>
-</blockquote>
-<blockquote>
-<p>git remote add origin <a href="https://github.com/Weirdchun/Weirdchun.github.io.git">https://github.com/Weirdchun/Weirdchun.github.io.git</a></p>
-</blockquote>
-<blockquote>
-<p>git push -u origin master</p>
-</blockquote>
+<pre><code>git add .
+git commit -m &quot;blog&quot;
+git remote add origin https://github.com/Weirdchun/Weirdchun.github.io.git
+git push -u origin master
+</code></pre>
 <h1 id="使用脚本发布博客"><strong>使用脚本发布博客</strong></h1>
 <h2 id="新建deploysh文件"><strong>新建deploy.sh文件</strong></h2>
 <p>每次发布都得进行上面四步，太麻烦了，使用脚本代替！</p>
@@ -370,7 +339,10 @@ fi
 git commit -m &quot;$msg&quot;
 
 # Push source and build repos.
-git push github master
+
+git push github master(不行的话）
+
+可以试试git push -f origin master
 
 # Come Back
 cd ..
@@ -380,22 +352,72 @@ cd ..
 Tip:每次都得输入密码非常麻烦，我们需要Git免登录</p>
 <p>打开Git Bash，</p>
 <p>在C盘MINGW64 ~$ 模式下，touch创建文件 .git-credentials：</p>
-<blockquote>
-<p>touch .git-credentials</p>
-</blockquote>
+<pre><code>touch .git-credentials
+</code></pre>
 <p>用vim编辑此文件，</p>
-<blockquote>
-<p>vim .git-credentials</p>
-</blockquote>
+<pre><code> vim .git-credentials
+</code></pre>
 <p>输入内容格式</p>
-<blockquote>
-<p><a href="https://username:password@github.com">https://username:password@github.com</a></p>
-</blockquote>
+<pre><code>https://username:password@github.com
+</code></pre>
 <p>最后执行</p>
-<blockquote>
-<p>git config &ndash;global credential.helper store
-<a href="http://gdfrk.cn/vx2nW" title="Hugo博客的脚本快速发布博客">http://gdfrk.cn/vx2nW</a></p>
-</blockquote>
+<pre><code>git config --global credential.helper store
+</code></pre>
+<p><a href="http://gdfrk.cn/vx2nW" title="Hugo博客的脚本快速发布博客">http://gdfrk.cn/vx2nW</a>参考信息</p>
+<p>如果本地和远程不能同步可以参考这个教程：
+<a href="http://gdfrk.cn/vP3li" title="git push后出现错误 ![rejected] master -&gt; master(non-fast-forward) error:failed to push some refs to XXX">http://gdfrk.cn/vP3li</a></p>
+<p>通过配置文件deploy.sh实现一键部署到GitHub
+（a）<em>deploy.sh</em>文件放在站点根目录下；
+（b）执行方法分两种（windows下）：</p>
+<p>方法一：站点根目录下，鼠标右键，打开<strong>git bash here</strong>窗口，执行<strong>sh deploy.sh</strong>。</p>
+<p>方法二：选中deploy.sh文件，鼠标右键属性，更改打开方式，将打开方式选择为git-bash.exe执行文件，以后写新的文章后，双击下脚本文件即可成功推送到github上。</p>
+<pre><code>`#!/bin/bash
+
+echo -e &quot;\033[0;32mDeploying updates to GitHub...\033[0m&quot;
+
+# Build the project.
+hugo # if using a theme, replace by `hugo -t &lt;yourtheme&gt;`
+
+# Go To Public folder
+cd public
+# Add changes to git.
+git add -A
+
+# Commit changes.
+msg=&quot;rebuilding site `date`&quot;
+if [ $# -eq 1 ]
+then msg=&quot;$1&quot;
+fi
+git commit -m &quot;$msg&quot;
+
+# Push source and build repos.
+git push origin master
+
+# Come Back
+cd ..`
+[http://gdfrk.cn/NtQaN](http://gdfrk.cn/NtQaN &quot;hugo一键发布博客&quot;)
+</code></pre>
+<p><a href="http://gdfrk.cn/3LhpD" title="hugo+github博客搭建教程！">http://gdfrk.cn/3LhpD</a>hugo+github博客搭建教程</p>
+<p><a href="http://1c3c.cn/pILRm" title="搭建一个基于hugo的个人博客">http://1c3c.cn/pILRm</a>搭建一个基于hugo的个人博客</p>
+<p><a href="https://my.oschina.net/manlu/blog/3210343" title="将基于hugo搭建的个人博客部署到github上,供外网访问">https://my.oschina.net/manlu/blog/3210343</a>将基于hugo搭建的个人博客部署到github上,供外网访问</p>
+<p><a href="https://www.dazhuanlan.com/2019/09/24/5d89a53a6f803/" title="hugo新增博客步骤 · lww’s Blog">https://www.dazhuanlan.com/2019/09/24/5d89a53a6f803/</a>hugo新增博客步骤 · lww’s Blog</p>
+<p><a href="http://gdfrk.cn/ur9Rz" title="Hugo博客部署到GitHub无法显示CSS、JS踩坑">http://gdfrk.cn/ur9Rz</a>Hugo博客部署到GitHub无法显示CSS、JS踩坑</p>
+<hr>
+<p>附上部署命令：</p>
+<p>hugo &ndash;theme=这里填你的主题名 &ndash;baseUrl=“这里填你的远端地址” &ndash;buildDrafts</p>
+<p>cd public</p>
+<p>git init</p>
+<p>git remote add origin <a href="https://github.com/">https://github.com/</a>你的github用户名/你的github用户名.github.io.git</p>
+<p>git add -A</p>
+<p>git commit -m “我的hugo博客”</p>
+<p>git pull &ndash;rebase origin master</p>
+<p>git push -u origin master</p>
+<pre><code>    用git命令操作
+git add . （注意add空格后面有个点, 把新的改动添加到git仓库）
+git commit -m &quot;注释信息&quot; （提交改动到git仓库）
+git push origin master （推送改动到github）
+</code></pre>
+<p><a href="http://92.xswzl.cn/?e_keywordid=230120688189&amp;e_keywordid2=230120688189&amp;bd_vid=10535913871923485964" title="长链接转化成短链接">http://92.xswzl.cn/?e_keywordid=230120688189&amp;e_keywordid2=230120688189&amp;bd_vid=10535913871923485964</a>长链接转化成短链接</p>
 
         </div>
         <footer class="article-footer">
